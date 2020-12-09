@@ -1,0 +1,15 @@
+curl 'https://recycleapp.be/api/app/v1/collections?zipcodeId=9000-44021&streetId=https://data.vlaanderen.be/id/straatnaam-70780&houseNumber=1&fromDate=2021-01-01&untilDate=2021-12-31&size=200' \
+  -H 'Connection: keep-alive' \
+  -H 'Pragma: no-cache' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDc1MjEyNjUsImV4cCI6MTYwNzUyNDg2NSwiYXVkIjoicmVjeWNsZWFwcC5iZSJ9.vITuLJvENKNLcCskdyJtA5C_D_k0EEgSsWbwFM5y7xo' \
+  -H 'x-consumer: recycleapp.be' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://recycleapp.be/calendar' \
+  -H 'Accept-Language: en-US,en;q=0.9,nl-BE;q=0.8,nl;q=0.7' \
+  -H 'Cookie: _ga=GA1.1.1677698910.1607521265; _ga_BK5DGBR4DE=GS1.1.1607521264.1.1.1607521292.0' \
+  --compressed
