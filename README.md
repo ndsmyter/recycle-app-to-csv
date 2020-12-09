@@ -20,3 +20,12 @@ So I don't need to have the app installed locally all year long.
 The result is a JSON that you contains the information for that time period on the selected address.
 As an example I have entered the request for the address "Kouter 1, 9000 Ghent" for 2021.
 The cURL request can be found in curl2021.txt and the JSON result can be found in json2021.txt.
+
+# Parse the JSON
+
+Parsing the JSON is as easy as calling the Python script.
+The script itself is very easy, and should generate the CSV file "calendar2021.csv".
+
+# Notice
+
+It also possible to chain the cURL request and the JSON parsing in Python, but as I also had some other plans with the JSON, I've split this into 2 separate steps.
