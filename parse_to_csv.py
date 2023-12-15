@@ -1,9 +1,10 @@
 import json
 
-f = open("calendar2022.csv", "w")
+year = 2023
+f = open("calendar%s.csv" % year, "w")
 
 f.write("Subject,Start Date,End Date,All Day Event,Description\n")
-with open('json2022.txt') as json_file:
+with open('json%s.txt' % year) as json_file:
     data = json.load(json_file)
     items = data['items']
     for item in items:
